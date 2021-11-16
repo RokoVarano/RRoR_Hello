@@ -1,24 +1,45 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Hello World with React Redux
 
-Things you may want to cover:
+> This is a simple Hello World project that can display random greetings and has an attached API
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby
+- Ruby on Rails
+- React
+- Redux
+## Getting Started
 
-* Configuration
+Clone the repo from [here](https://github.com/RokoVarano/RRoR_Hello/tree/feature/hello_world)
+### Usage
 
-* Database creation
+- In the project directory, type 'rails s'
+- In your Browser, you can type the following:
+  API: 
+    - http://localhost:3000/api/v1/messages -> will display a random message from the API
+  VIEWS:
+    - http://localhost:3000/ -> will display a 'Home!' message
+    - http://localhost:3000/hello -> will display one of 5 greeting messages, a greeting in one of five languages
+## Authors
 
-* Database initialization
+👤 **Rodrigo Ibaceta**
 
-* How to run the test suite
+- GitHub: [@RokoVarano](https://github.com/RokoVarano)
+- Twitter: [@RodrigoIbacet11](https://twitter.com/RodrigoIbacet11)
+- LinkedIn: [rodrigo-ibaceta](https://www.linkedin.com/in/rodrigo-ibaceta/)
 
-* Services (job queues, cache servers, search engines, etc.)
+## Show your support
 
-* Deployment instructions
+Give a ⭐️ if you like this project!
 
-* ...
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
