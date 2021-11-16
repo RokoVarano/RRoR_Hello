@@ -16,6 +16,11 @@ Clone the repo from [here](https://github.com/RokoVarano/RRoR_Hello/tree/feature
 ### Usage
 
 - In the project directory, type 'rails s'
+- In config/database.yml, in database, change the user and password to whatever is convinient to your local postgres db
+- to create the database and populate it, enter the following commands in order:
+  - rails db:create
+  - rails db:migrate
+  - rails db:seed
 - In your Browser, you can type the following:
   API: 
     - http://localhost:3000/api/v1/messages -> will display a random message from the API
