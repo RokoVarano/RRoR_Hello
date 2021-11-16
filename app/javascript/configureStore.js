@@ -1,5 +1,5 @@
 import {
-  createStore, applyMiddleware, compose, combineReducers
+  createStore, applyMiddleware, compose, combineReducers,
 } from 'redux';
 import thunk from 'redux-thunk';
 import messages from './message_duck';

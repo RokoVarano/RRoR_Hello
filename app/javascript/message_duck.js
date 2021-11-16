@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const GET_MESSAGES_REQUEST = 'GET_MESSAGES_REQUEST';
 
-const getMessage = () => async(dispatch) => {
+const getMessage = () => async (dispatch) => {
   axios.get('http://localhost:3000/api/v1/messages').then((response) => {
     const { data } = response;
 
@@ -10,10 +10,10 @@ const getMessage = () => async(dispatch) => {
       {
         type: GET_MESSAGES_REQUEST,
         content: data.data.attributes.content,
-      }
-    )
-  })
-}
+      },
+    );
+  });
+};
 
 const messages = (state = [], action) => {
   switch (action.type) {
